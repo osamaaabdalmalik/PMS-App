@@ -1,9 +1,9 @@
-import 'package:consultations_app/core/constants/app_colors.dart';
-import 'package:consultations_app/core/constants/app_strings.dart';
-import 'package:consultations_app/core/widgets/primary_text_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:multi_select_flutter/multi_select_flutter.dart';
+import 'package:pms_app/core/constants/app_colors.dart';
+import 'package:pms_app/core/constants/app_strings.dart';
+import 'package:pms_app/core/widgets/primary_text_field.dart';
 
 class PrimaryMultiSelectItem<T> extends StatelessWidget {
   final String labelText;

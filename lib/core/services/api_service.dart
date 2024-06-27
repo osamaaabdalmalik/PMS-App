@@ -1,11 +1,11 @@
 import 'dart:convert';
 
-import 'package:consultations_app/core/constants/app_endpoints.dart';
-import 'package:consultations_app/core/services/network_info_service.dart';
-import 'package:consultations_app/core/services/state_manager_service.dart';
-import 'package:consultations_app/injection_container.dart';
 import 'package:http/http.dart' as http;
 import 'package:logger/logger.dart';
+import 'package:pms_app/core/constants/app_endpoints.dart';
+import 'package:pms_app/core/services/network_info_service.dart';
+import 'package:pms_app/core/services/state_manager_service.dart';
+import 'package:pms_app/injection_container.dart';
 
 abstract class ApiService {
   Future<Map<String, dynamic>> get({

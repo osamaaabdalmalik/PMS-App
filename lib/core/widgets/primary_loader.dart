@@ -1,6 +1,6 @@
-import 'package:consultations_app/core/constants/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
+import 'package:pms_app/core/constants/app_colors.dart';
 
 class PrimaryLoader extends StatelessWidget {
   final double size;

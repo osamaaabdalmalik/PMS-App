@@ -1,9 +1,9 @@
-import 'package:consultations_app/core/constants/app_keys.dart';
-import 'package:consultations_app/core/constants/app_routes.dart';
-import 'package:consultations_app/core/services/caching_service.dart';
-import 'package:consultations_app/features/main/presentation/screens/main_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:pms_app/core/constants/app_keys.dart';
+import 'package:pms_app/core/constants/app_routes.dart';
+import 'package:pms_app/core/services/caching_service.dart';
+import 'package:pms_app/features/main/presentation/screens/main_screen.dart';
 
 class RouterService {
   final CacheService _cacheService;
@@ -13,7 +13,7 @@ class RouterService {
     String initialLocation = _cacheService.getData<String>(
           key: AppKeys.initialLocationRoute,
         ) ??
-        AppRoutes.signInScreen;
+        AppRoutes.mainScreen;
     router = GoRouter(
       routes: [
         //-------------------------------------------

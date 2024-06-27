@@ -1,8 +1,8 @@
-import 'package:consultations_app/features/main/presentation/cubits/main_cubit/main_cubit.dart';
-import 'package:consultations_app/features/main/presentation/screens/home_tab.dart';
-import 'package:consultations_app/features/main/presentation/widgets/bottom_navbar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:pms_app/features/main/presentation/cubits/main_cubit/main_cubit.dart';
+import 'package:pms_app/features/main/presentation/screens/home_tab.dart';
+import 'package:pms_app/features/main/presentation/widgets/bottom_navbar.dart';
 
 class MainScreen extends StatelessWidget {
   MainScreen({super.key});

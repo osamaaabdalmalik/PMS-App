@@ -1,4 +1,4 @@
-import 'package:consultations_app/features/main/domain/entities/sub_category_entity.dart';
+import 'package:pms_app/features/main/domain/entities/sub_category_entity.dart';
 
 class MainCategory {
   final int id;

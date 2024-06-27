@@ -1,16 +1,16 @@
-import 'package:consultations_app/core/services/api_service.dart';
-import 'package:consultations_app/core/services/bloc_observer_service.dart';
-import 'package:consultations_app/core/services/caching_service.dart';
-import 'package:consultations_app/core/services/network_info_service.dart';
-import 'package:consultations_app/core/services/router_service.dart';
-import 'package:consultations_app/core/services/status_handler_service.dart';
-import 'package:consultations_app/features/main/domain/usecases/get_home_data_use_case.dart';
-import 'package:consultations_app/features/main/presentation/cubits/main_cubit/main_cubit.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_it/get_it.dart';
 import 'package:http/http.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
 import 'package:logger/logger.dart';
+import 'package:pms_app/core/services/api_service.dart';
+import 'package:pms_app/core/services/bloc_observer_service.dart';
+import 'package:pms_app/core/services/caching_service.dart';
+import 'package:pms_app/core/services/network_info_service.dart';
+import 'package:pms_app/core/services/router_service.dart';
+import 'package:pms_app/core/services/status_handler_service.dart';
+import 'package:pms_app/features/main/domain/usecases/get_home_data_use_case.dart';
+import 'package:pms_app/features/main/presentation/cubits/main_cubit/main_cubit.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'features/main/data/data_sources/main_remote_data_source.dart';

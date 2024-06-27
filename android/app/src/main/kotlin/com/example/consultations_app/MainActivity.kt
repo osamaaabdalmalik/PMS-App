@@ -1,4 +1,4 @@
-package com.example.consultations_app
+package com.example.pms_app
 
 import io.flutter.embedding.android.FlutterActivity
 

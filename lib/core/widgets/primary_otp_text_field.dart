@@ -1,9 +1,9 @@
-import 'package:consultations_app/core/constants/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:otp_text_field/otp_field.dart';
 import 'package:otp_text_field/otp_field_style.dart';
 import 'package:otp_text_field/style.dart';
+import 'package:pms_app/core/constants/app_colors.dart';
 
 class PrimaryOTPTextField extends StatefulWidget {
   final void Function(String)? onCompleted;

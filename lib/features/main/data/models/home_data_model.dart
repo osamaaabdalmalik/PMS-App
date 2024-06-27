@@ -1,5 +1,5 @@
-import 'package:consultations_app/features/main/data/models/main_category_model.dart';
-import 'package:consultations_app/features/main/domain/entities/home_data_entity.dart';
+import 'package:pms_app/features/main/data/models/main_category_model.dart';
+import 'package:pms_app/features/main/domain/entities/home_data_entity.dart';
 
 class HomeDataModel extends HomeData {
   const HomeDataModel({

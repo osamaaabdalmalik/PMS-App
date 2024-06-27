@@ -1,14 +1,14 @@
 import 'dart:convert';
 
-import 'package:consultations_app/core/constants/app_strings.dart';
-import 'package:consultations_app/core/enums/general_states.dart';
-import 'package:consultations_app/core/helpers/exception.dart';
-import 'package:consultations_app/core/helpers/failures.dart';
-import 'package:consultations_app/core/services/status_handler_service.dart';
-import 'package:consultations_app/injection_container.dart';
 import 'package:dartz/dartz.dart';
 import 'package:http/http.dart';
 import 'package:logger/logger.dart';
+import 'package:pms_app/core/constants/app_strings.dart';
+import 'package:pms_app/core/enums/general_states.dart';
+import 'package:pms_app/core/helpers/exception.dart';
+import 'package:pms_app/core/helpers/failures.dart';
+import 'package:pms_app/core/services/status_handler_service.dart';
+import 'package:pms_app/injection_container.dart';
 
 abstract class StateManagerService {
   static Unit getExceptionStatusCode(Response response) {

@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
-import 'package:consultations_app/injection_container.dart';
 import 'package:logger/logger.dart';
+import 'package:pms_app/injection_container.dart';
 
 class BlocObserverService extends BlocObserver {
   @override

@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:consultations_app/core/constants/app_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:pms_app/core/constants/app_strings.dart';
 
 class Pickers {
   static Future<String?> choseDate(BuildContext context) async {

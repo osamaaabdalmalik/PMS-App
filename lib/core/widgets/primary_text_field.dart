@@ -1,7 +1,7 @@
-import 'package:consultations_app/core/constants/app_colors.dart';
 import 'package:flutter/cupertino.dart' show CupertinoIcons;
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:pms_app/core/constants/app_colors.dart';
 
 class PrimaryTextField extends StatefulWidget {
   final String labelText;

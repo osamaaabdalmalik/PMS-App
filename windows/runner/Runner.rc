@@ -94,12 +94,12 @@ BEGIN
 BEGIN
         VALUE
 "CompanyName", "com.example" "\0"
-VALUE "FileDescription", "consultations_app" "\0"
+VALUE "FileDescription", "pms_app" "\0"
 VALUE "FileVersion", VERSION_AS_STRING "\0"
-VALUE "InternalName", "consultations_app" "\0"
+VALUE "InternalName", "pms_app" "\0"
 VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
-VALUE "OriginalFilename", "consultations_app.exe" "\0"
-VALUE "ProductName", "consultations_app" "\0"
+VALUE "OriginalFilename", "pms_app.exe" "\0"
+VALUE "ProductName", "pms_app" "\0"
 VALUE "ProductVersion", VERSION_AS_STRING "\0"
 END
         END

@@ -1,4 +1,4 @@
-import 'package:consultations_app/core/constants/app_strings.dart';
+import 'package:pms_app/core/constants/app_strings.dart';
 
 abstract class RegexValidator {
   static const emailRegex =

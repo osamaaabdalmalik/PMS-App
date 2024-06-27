@@ -1,6 +1,6 @@
 import 'package:awesome_snackbar_content/awesome_snackbar_content.dart';
-import 'package:consultations_app/core/constants/app_colors.dart';
 import 'package:flutter/material.dart';
+import 'package:pms_app/core/constants/app_colors.dart';
 
 class PrimarySnackBar {
   final BuildContext context;

@@ -1,8 +1,8 @@
-import 'package:consultations_app/core/constants/app_endpoints.dart';
-import 'package:consultations_app/core/services/api_service.dart';
-import 'package:consultations_app/features/main/data/models/home_data_model.dart';
-import 'package:consultations_app/injection_container.dart';
 import 'package:logger/logger.dart';
+import 'package:pms_app/core/constants/app_endpoints.dart';
+import 'package:pms_app/core/services/api_service.dart';
+import 'package:pms_app/features/main/data/models/home_data_model.dart';
+import 'package:pms_app/injection_container.dart';
 
 abstract class MainRemoteDataSource {
   Future<HomeDataModel> getHome();

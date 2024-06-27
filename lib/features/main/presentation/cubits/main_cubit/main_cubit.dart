@@ -1,12 +1,11 @@
 import 'package:bloc/bloc.dart';
-import 'package:consultations_app/core/enums/general_states.dart';
-import 'package:consultations_app/core/services/state_manager_service.dart';
-import 'package:consultations_app/features/main/domain/entities/home_data_entity.dart';
-import 'package:consultations_app/features/main/domain/usecases/get_home_data_use_case.dart';
-import 'package:consultations_app/injection_container.dart';
 import 'package:flutter/material.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:logger/logger.dart';
+import 'package:pms_app/core/enums/general_states.dart';
+import 'package:pms_app/features/main/domain/entities/home_data_entity.dart';
+import 'package:pms_app/features/main/domain/usecases/get_home_data_use_case.dart';
+import 'package:pms_app/injection_container.dart';
 
 part 'main_cubit.freezed.dart';
 part 'main_state.dart';
@@ -39,20 +38,20 @@ class MainCubit extends Cubit<MainState> {
 
   Future<void> getHomeData() async {
     InjectionContainer.getIt<Logger>().i("Start `getHomeData` in |MainCubit|");
-    _update(const MainState.loading());
-    generalState = GeneralStates.loading;
-    var result = await getHomeDataUseCase();
-    result.fold(
-      (l) {
-        generalState = StateManagerService.getStateFromFailure(l);
-        _update(MainState.error(l.message));
-      },
-      (homeData) {
-        _update(MainState.loaded(homeData));
-        generalState = GeneralStates.success;
-        this.homeData = homeData;
-      },
-    );
+    // _update(const MainState.loading());
+    // generalState = GeneralStates.loading;
+    // var result = await getHomeDataUseCase();
+    // result.fold(
+    //   (l) {
+    //     generalState = StateManagerService.getStateFromFailure(l);
+    //     _update(MainState.error(l.message));
+    //   },
+    //   (homeData) {
+    //     _update(MainState.loaded(homeData));
+    //     generalState = GeneralStates.success;
+    //     this.homeData = homeData;
+    //   },
+    // );
     InjectionContainer.getIt<Logger>().w(
       "End `getHomeData` in |MainCubit| General State:$generalState",
     );

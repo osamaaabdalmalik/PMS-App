@@ -1,7 +1,7 @@
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
-import 'package:consultations_app/core/constants/app_strings.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:pms_app/core/constants/app_strings.dart';
 
 class BottomNavbar extends StatelessWidget {
   final int currentTab;

@@ -1,6 +1,6 @@
-import 'package:consultations_app/core/constants/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:pms_app/core/constants/app_colors.dart';
 
 abstract class AppThemes {
   static ThemeData themeEnglish = ThemeData(

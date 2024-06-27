@@ -1,5 +1,5 @@
-import 'package:consultations_app/features/main/data/models/sub_category_model.dart';
-import 'package:consultations_app/features/main/domain/entities/main_category_entity.dart';
+import 'package:pms_app/features/main/data/models/sub_category_model.dart';
+import 'package:pms_app/features/main/domain/entities/main_category_entity.dart';
 
 class MainCategoryModel extends MainCategory {
   const MainCategoryModel({
