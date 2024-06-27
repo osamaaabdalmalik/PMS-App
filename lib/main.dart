@@ -60,9 +60,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-/*
-keytool -genkey -v -keystore C:\Users\Asus\AndroidStudioProjects\Flutter\current\pms_app\android\app\debug-keystore.jks ^
-        -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 ^
-        -alias debug
-        osama$57475600
- */
